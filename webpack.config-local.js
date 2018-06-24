@@ -1,3 +1,4 @@
+
 const path = require('path');
 const BuildPluginLocal = require('./build/build.plugin-local');
 
