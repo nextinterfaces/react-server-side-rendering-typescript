@@ -1,0 +1,53 @@
+{
+  "name": "@nextinterfaces/react-ssr",
+  "version": "0.0.1",
+  "description": "nextinterfaces ssr",
+  "author": "com.nextinterfaces",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config-local.js --port 8555 --host 0.0.0.0",
+    "watch": "webpack --config webpack.config.js --watch",
+    "build": "webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^3.3.37",
+    "@types/react": "^16.0.22",
+    "@types/react-dom": "^16.0.3",
+    "awesome-typescript-loader": "^3.4.1",
+    "css-loader": "^0.28.9",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.1",
+    "typescript": "^2.7.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "dependencies": {
+    "axios": "^0.17.0",
+    "babel-loader": "^7.1.4",
+    "bootstrap": "^4.0.0",
+    "classnames": "^2.2.5",
+    "history": "^4.7.2",
+    "immutable": "^3.8.2",
+    "lodash": "^4.17.5",
+    "npm": "^6.1.0",
+    "react": "16.2.0",
+    "react-context-component": "0.0.6",
+    "react-day-picker": "^7.1.6",
+    "react-dnd": "^2.6.0",
+    "react-dnd-html5-backend": "^2.6.0",
+    "react-dom": "16.2.0",
+    "react-dom-factories": "^1.0.2",
+    "react-dropzone": "^4.2.9",
+    "react-popper": "^0.7.5",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "react-select": "^1.2.1",
+    "react-transition-group": "^2.2.1",
+    "reactstrap": "^5.0.0-beta",
+    "redux": "^3.7.2",
+    "redux-promise": "^0.5.3"
+  },
+  "private": true
+}

@@ -1,0 +1,21 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es2016","dom"],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "jsx": "react",
+    "noUnusedLocals": false,
+    "outDir": "dist/",
+    "rootDir": "src/"
+  },
+  "filesGlob": [
+    "node_modules/@types",
+    "**/*.ts",
+    "!node_modules"
+  ]
+}
